@@ -12,10 +12,17 @@ public class Resta {
 		int y= input.nextInt();
 		
 		System.out.println(resta(x,y));
+		System.out.println("El resultado de dividir "+ x+" entre" +y +" es: "+ division(x,y));
+		
 	}//END MAIN
 	public static int resta(int c, int d){
 		int resta;
 		resta= c-d;
 		return resta;
+	}
+	public static int division (int c, int d){
+		int division;
+		division=c/d;
+		return division;
 	}
 }//END CLASS
