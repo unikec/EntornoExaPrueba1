@@ -13,7 +13,7 @@ public class Resta {
 		
 		System.out.println(resta(x,y));
 		System.out.println("El resultado de dividir "+ x+" entre" +y +" es: "+ division(x,y));
-		
+		System.out.println("ya no se que poner");
 	}//END MAIN
 	public static int resta(int c, int d){
 		int resta;
